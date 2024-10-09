@@ -12,7 +12,7 @@ const Home = () => {
       </p>
 
       {/* User Image Box */}
-      <div className="md:w-[25%] p-4 flex justify-center items-start ">
+      <div className="w-[70%]  sm:w-[30%] p-4 flex justify-center items-start ">
         <img
           src="https://muhammadumerkhan.github.io/images/IMG_20240921_233231819.jpg" // Replace with your profile picture URL
           alt="Muhammad Umer Khan"

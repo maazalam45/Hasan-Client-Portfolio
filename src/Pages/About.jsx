@@ -17,7 +17,7 @@ const About = () => {
 
         {/* Profile Section */}
         <div className="flex flex-col md:flex-row mb-12">
-          <div className="md:w-[30%] p-4 flex justify-center items-start mt-4">
+          <div className="md:w-[30%] w[80%] p-4 flex justify-center items-start mt-4">
             <img
               src="https://muhammadumerkhan.github.io/images/IMG_20240921_233231819.jpg" // Replace with your profile picture URL
               alt="Muhammad Umer Khan"
