@@ -7,7 +7,7 @@ import Home from "./Pages/Home";
 import Header from "./Components/Header";
 import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
-import NotFound from "./Pages/NotFound"; // Import the NotFound component
+import NotFound from "./Pages/NotFound";
 
 const App = () => {
   return (
@@ -19,7 +19,7 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />{" "}
-        {/* Catch all unmatched routes */}
+        {/* NotFound route at the end */}
       </Routes>
       <Footer />
     </Router>
