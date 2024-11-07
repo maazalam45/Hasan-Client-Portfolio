@@ -19,9 +19,9 @@ const About = () => {
         <div className="flex flex-col md:flex-row mb-12">
           <div className="md:w-[30%] w[80%] p-4 flex justify-center items-start mt-4">
             <img
-              src="https://muhammadumerkhan.github.io/images/IMG_20240921_233231819.jpg" // Replace with your profile picture URL
-              alt="Muhammad Umer Khan"
-              className="mt-[20%] rounded-full shadow-lg border-4 border-gray-700 hover:scale-110 transition-transform duration-300"
+              src="https://dummyimage.com/200x200"
+              alt="Profile Mock Image"
+              className="w-[200px] h-[200px] rounded-full shadow-lg border-4 border-gray-700 hover:scale-110 transition-transform duration-300 object-cover"
             />
           </div>
 

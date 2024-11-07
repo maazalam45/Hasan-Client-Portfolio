@@ -14,9 +14,9 @@ const Home = () => {
       {/* User Image Box */}
       <div className="w-[70%]  sm:w-[30%] p-4 flex justify-center items-start ">
         <img
-          src="https://muhammadumerkhan.github.io/images/IMG_20240921_233231819.jpg" // Replace with your profile picture URL
-          alt="Muhammad Umer Khan"
-          className="rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105"
+          src="https://dummyimage.com/200x200"
+          alt="Profile Mock Image"
+          className="w-[200px] h-[200px] rounded-full shadow-lg border-4 border-gray-700 hover:scale-110 transition-transform duration-300 object-cover"
         />
       </div>
 
